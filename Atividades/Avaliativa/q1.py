@@ -6,7 +6,6 @@ def fatorial(N):
     print(f"O fatorial de {N} é {resultado}")
     return resultado
 
-
 num = int(input("Digite um número inteiro para ver o seu fatorial:\n"))
     
 fatorial(num)
