@@ -53,7 +53,7 @@ while True:
         qnt_nuns = int(input("Informe quantos números deseja sortear: "))
 
     elif opcao == 3:
-        if inicio == 0 and fim == 0 or None:
+        if inicio == 0 and fim == 0:
             print("\n⚠️ Defina o intervalo primeiro!")
             input("\nPressione ENTER para continuar...")
             continue
@@ -68,7 +68,6 @@ while True:
             input("\nPressione ENTER para continuar...")
             continue
 
-        # 🔥 loading cobrinha
         loading_cobrinha()
 
         sorteados = []

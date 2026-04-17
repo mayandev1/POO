@@ -3,7 +3,7 @@ def transacoes():
     print(f"A maior transação foi no valor de {maior} reais.")
     print(f"A menor transação foi no valor de {menor} reais.")
     print(f"Soma total de todas as transações é de {total} reais.")
-    print(f"{qnt_transacoes_maior100} foram maiores do que 100 reais.")
+    print(f"{qnt_transacoes_maior100} transações foram maiores do que 100 reais.")
     
     if total <= 500:
         print("Uso baixo.")
